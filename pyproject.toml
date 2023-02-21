@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "schedule"
+version = "0.1.0"
+description = ""
+authors = ["Viacheslav Prokhorovych <p.slava.ih@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10.4"
+marshmallow = "^3.19.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
